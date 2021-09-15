@@ -6,7 +6,7 @@
     "organization": "Supernova",
     "source_dir": "src",
     "assets_dir": "assets",
-    "version": "1.6.0",
+    "version": "1.6.1",
     "config": {
         "sources": "sources.json",
         "output": "output.json",
@@ -66,6 +66,116 @@
                 "description": "Meta description of the documentation site",
                 "category": "SEO",
                 "default": ""
+            }
+            {
+                "key": "custom_string",
+                "type": "string",
+                "category": "Custom properties",
+                "label": "Custom string with long description",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget vehicula odio. Phasellus gravida scelerisque faucibus. Pellentesque tincidunt mauris elementum diam fringilla consectetur.",
+                "default": "Hue hue hue"
+            },
+            {
+                "key": "custom_number",
+                "type": "number",
+                "category": "Custom properties",
+                "label": "Custom number with long description",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget vehicula odio. Phasellus gravida scelerisque faucibus. Pellentesque tincidunt mauris elementum diam fringilla consectetur.",
+                "default": 69
+            },
+            {
+                "key": "custom_boolean",
+                "type": "boolean",
+                "category": "Custom properties",
+                "label": "Custom boolean with long description",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget vehicula odio. Phasellus gravida scelerisque faucibus. Pellentesque tincidunt mauris elementum diam fringilla consectetur.",
+                "default": true
+            },
+            {
+                "key": "custom_enum",
+                "type": "enum",
+                "category": "Custom properties",
+                "label": "Custom enum with long description",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget vehicula odio. Phasellus gravida scelerisque faucibus. Pellentesque tincidunt mauris elementum diam fringilla consectetur.",
+                "values": ["First", "Second", "Third"],
+                "default": "Second"
+            },
+            {
+                "key": "custom_image",
+                "type": "image",
+                "category": "Custom properties",
+                "label": "Custom image with long description",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget vehicula odio. Phasellus gravida scelerisque faucibus. Pellentesque tincidunt mauris elementum diam fringilla consectetur."
+            },
+            {
+                "key": "custom_color",
+                "type": "color",
+                "category": "Custom properties",
+                "label": "Custom color with long description",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget vehicula odio. Phasellus gravida scelerisque faucibus. Pellentesque tincidunt mauris elementum diam fringilla consectetur."
+            },
+            {
+                "key": "custom_typography",
+                "type": "typography",
+                "category": "Custom properties",
+                "label": "Custom typography with long description",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget vehicula odio. Phasellus gravida scelerisque faucibus. Pellentesque tincidunt mauris elementum diam fringilla consectetur."
+            },
+
+            {
+                "key": "custom_string_no_desc",
+                "type": "string",
+                "category": "Custom properties",
+                "label": "Custom string",
+                "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget vehicula odio. Phasellus gravida scelerisque faucibus. Pellentesque tincidunt mauris elementum diam fringilla consectetur."
+            },
+            {
+                "key": "custom_number_no_desc",
+                "type": "number",
+                "category": "Custom properties",
+                "label": "Custom number",
+                "default": 420
+            },
+            {
+                "key": "custom_boolean_no_desc",
+                "type": "boolean",
+                "category": "Custom properties",
+                "label": "Custom boolean",
+                "default": false
+            },
+            {
+                "key": "custom_enum_no_desc",
+                "type": "enum",
+                "category": "Custom properties",
+                "label": "Custom enum",
+                "values": ["First", "Second", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget vehicula odio. Phasellus gravida scelerisque faucibus. Pellentesque tincidunt mauris elementum diam fringilla consectetur."],
+                "default": "Second"
+            },
+            {
+                "key": "custom_image_no_desc",
+                "type": "image",
+                "category": "Custom properties",
+                "label": "Custom image"
+            },
+            {
+                "key": "custom_color_no_desc",
+                "type": "color",
+                "category": "Custom properties",
+                "label": "Custom color"
+            },
+            {
+                "key": "custom_typography_no_desc",
+                "type": "typography",
+                "category": "Custom properties",
+                "label": "Custom typography"
+            },
+            {
+                "key": "custom_string_2",
+                "type": "string",
+                "category": "Custom properties 2",
+                "label": "Custom string 2",
+                "description": "Le custom string 2",
+                "default": "Hue hue hue"
             }
         ],
         "blocks": []
